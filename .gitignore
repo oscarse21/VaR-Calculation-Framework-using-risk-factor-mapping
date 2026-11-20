@@ -1,0 +1,25 @@
+# Java/Maven build artefacts
+target/
+*.class
+*.jar
+*.log
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Local, potentially licensed data — never commit
+data/
+datasets/
+raw-data/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.zip
+.env
+.env.*
