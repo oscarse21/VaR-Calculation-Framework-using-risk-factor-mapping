@@ -40,7 +40,7 @@ The example focuses on the **computational trade-off between approximation and f
 | `src/main/java/TRFM/VolatilityModels/GarchVolatilityModel.java` | Conditional volatility estimation and one-day forecasting |
 | `src/main/java/TRFM/VolatilityEstimators/Garch11_Estimator.java` | GARCH parameter fitting |
 | `src/main/java/TRFM/Optimize/Optimizer_NelderMead.java` | Numerical minimizer |
-| `src/main/java/TRFM/FhsScenarioGenerator.java` | Standardized-residual resampling |
+| `src/main/java/TRFM/ScenarioGeneratorModel.java` | Standardized-residual resampling |
 | `src/main/java/TRFM/BlackScholesPricer.java` | European option pricing |
 | `src/test/java/TRFM/GarchDemoTest.java` | Sanity, reproducibility and pricing tests |
 | `.github/workflows/java-ci.yml` | Automatically builds, tests and runs the demo |
